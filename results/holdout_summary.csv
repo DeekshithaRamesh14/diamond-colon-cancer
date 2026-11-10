@@ -1,0 +1,23 @@
+method,k,mean_recall,standard_error
+alpha=1,25,0.0133,0.0093
+alpha=1,50,0.04,0.0149
+alpha=1,100,0.0467,0.0184
+alpha=2,25,0.0133,0.0093
+alpha=2,50,0.0267,0.0126
+alpha=2,100,0.0467,0.0184
+alpha=3,25,0.0133,0.0093
+alpha=3,50,0.02,0.0111
+alpha=3,100,0.0333,0.0168
+alpha=5,25,0.0333,0.0168
+alpha=5,50,0.0533,0.019
+alpha=5,100,0.06,0.0195
+alpha=10,25,0.0533,0.0164
+alpha=10,50,0.0667,0.0175
+alpha=10,100,0.08,0.0182
+most seed neighbours,25,0.0867,0.0184
+most seed neighbours,50,0.1133,0.0208
+most seed neighbours,100,0.1267,0.0203
+random guessing,25,0.0016,
+random guessing,50,0.0032,
+random guessing,100,0.0065,
+hidden seeds with a direct link to a visible seed,,0.5467,0.0383
