@@ -1,0 +1,4 @@
+method,recall_mean,recall_se,proteins_predicted
+whole best Louvain community,0.38,0.0411,2126
+best 100 of the community (links to seeds),0.0733,0.0179,100
+DIAMOnD alpha=1 (100 picks),0.0467,0.0184,100

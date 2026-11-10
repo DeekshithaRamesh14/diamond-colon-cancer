@@ -20,4 +20,4 @@ most seed neighbours,100,0.1267,0.0203
 random guessing,25,0.0016,
 random guessing,50,0.0032,
 random guessing,100,0.0065,
-hidden seeds with a direct link to a visible seed,,0.5467,0.0383
+ceiling: hidden seeds with a direct link to a visible seed,,0.5467,0.0383

@@ -1,0 +1,20 @@
+Network: 15475 proteins, 148778 links | seeds in the network: 21 | DIAMOnD picks read from results\original_output.txt: 100
+
+LOUVAIN (course method): what does it say about the colon cancer genes?
+  Louvain finds 25 communities, modularity 0.417, sizes from 2 to 3359 proteins
+  communities that contain seeds (of 21 seeds):
+    community 3   size  2139  seeds  9  p = 0.0011  BH-adjusted p = 0.028
+    community 1   size  1952  seeds  4  p = 0.27  BH-adjusted p = 1
+    community 9   size  1149  seeds  3  p = 0.2  BH-adjusted p = 1
+    community 10  size  1305  seeds  2  p = 0.54  BH-adjusted p = 1
+    community 0   size   554  seeds  1  p = 0.54  BH-adjusted p = 1
+    community 5   size  3359  seeds  1  p = 0.99  BH-adjusted p = 1
+    community 6   size  2185  seeds  1  p = 0.96  BH-adjusted p = 1
+  seeds are spread over 7 of 25 communities
+  share of DIAMOnD's 100 picks that lie in a community with a seed: 1.00 (for a random protein: 0.82)
+  DIAMOnD picks inside the community with most seeds (community 3, 2139 proteins = 14% of the network): 5 of 100
+
+  Hide-seeds test (hide 5 of 21 seeds, 30 rounds, same hidden seeds as DIAMOnD.py):
+    whole best Louvain community as the prediction: 0.380 +- 0.041 of hidden seeds found, but it holds about 2126 proteins
+    best 100 of that community (most links to seeds): 0.073 +- 0.018
+    DIAMOnD alpha=1, 100 picks (from holdout_summary.csv): 0.047 +- 0.018
